@@ -1,0 +1,4 @@
+- `npm i`
+- `npm run dev`
+- open to `/`
+- see `Cannot GET /` instead of the `NotFound.tsx` component
