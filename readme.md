@@ -1,0 +1,4 @@
+- `npm i`
+- `npm run dev`
+- open to `curl http://localhost:3000/users/clover` -> status 200 (fail)
+- open to `curl http://localhost:3000/other/clover` -> status 404 (pass)
