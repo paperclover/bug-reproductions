@@ -1,0 +1,3 @@
+- `npm i`
+- `npm run storybook` -> you can see the button story
+- `npm run build-storybook` -> missing iframe.html in build folder -> fails at runtime
