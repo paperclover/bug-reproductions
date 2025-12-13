@@ -9,7 +9,6 @@ import {
 import { DefaultCatchBoundary } from "../components/DefaultCatchBoundary.js";
 import { NotFound } from "../components/NotFound.js";
 import css from "../app.css?url";
-import { setTimeout } from "node:timers/promises";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -32,7 +31,7 @@ export const Route = createRootRoute({
 
   // remove async loader to fix bug
   async loader() {
-    await setTimeout(100); // causes bug
+    await new Promise((resolve) => setTimeout(resolve, 100));
   },
 });
 
