@@ -17,6 +17,9 @@
     "react": "^19.2.1",
     "react-dom": "^19.2.1"
   },
+  "overrides": {
+    "@storybook/builder-vite": "10.3.0-alpha.3"
+  },
   "devDependencies": {
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",
